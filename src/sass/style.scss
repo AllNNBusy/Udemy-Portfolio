@@ -14,9 +14,16 @@
    width: 1140px;
    margin: 0 auto;
 }
+.descr {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   color: #000000;
+}
 
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/buttons';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/aboutme';
