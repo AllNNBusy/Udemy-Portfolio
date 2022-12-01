@@ -11,6 +11,19 @@
       transform: translate(-12px, -6px);
    }
 }
+@mixin before_midle {
+   &:before {
+      content: '';
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+      background: $main-color;
+      z-index: -1;
+      transform: rotate(10%);
+      transform: translate(6px, -6px);
+   }
+}
 @mixin before_icons {
    &:before {
       content: '';
@@ -24,8 +37,18 @@
       transform: translate(-16px, -15px);
    }
 }
-@mixin divider-left {
-   width: 60px;
-   border: 2px solid #FFA501;
+@mixin before_circle_test {
+   &:before {
+      content: '';
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+      background: $main-color;
+      z-index: -1;
+      top: -25%;
+      left: 0;
+   }
 }
+
 

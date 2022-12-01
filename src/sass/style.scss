@@ -19,6 +19,18 @@
    font-size: 14px;
    line-height: 21px;
    color: #000000;
+   &_fz12 {
+      font-size: 12px;
+      line-height: 18px;
+   }
+}
+.divider {
+   width: 60px;
+   height: 3px;
+   background-color: $main-color;
+   &_midle {
+      margin: 25px auto 0 auto;
+   }
 }
 
 @import 'blocks/promo';
@@ -27,3 +39,5 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/aboutme';
+@import 'blocks/resume';
+// @import 'blocks/about';
