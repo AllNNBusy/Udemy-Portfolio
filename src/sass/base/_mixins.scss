@@ -7,8 +7,8 @@
       border-radius: 100%;
       background: $main-color;
       z-index: -1;
-      transform: rotate(10%);
-      transform: translate(-12px, -6px);
+      left: 0;
+      transform: translate(-33%, -15%);
    }
 }
 @mixin before_midle {
@@ -20,8 +20,8 @@
       border-radius: 100%;
       background: $main-color;
       z-index: -1;
-      transform: rotate(10%);
-      transform: translate(6px, -6px);
+      left: 50%;
+      transform: translate(-50%, -14%);
    }
 }
 @mixin before_icons {
@@ -33,7 +33,6 @@
       border-radius: 100%;
       background: $main-color;
       z-index: -1;
-      transform: rotate(10%);
       transform: translate(-16px, -15px);
    }
 }

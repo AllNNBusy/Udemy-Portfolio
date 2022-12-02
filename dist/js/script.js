@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.hamburger'),
    menu = document.querySelector('.menu'),
-   closeElem = document.querySelector('.menu__close');
+   closeElem = document.querySelector('.menu__close'),
    closeOverlay = document.querySelector('.menu__overlay');
 
 hamburger.addEventListener('click', () => {
@@ -13,4 +13,11 @@ closeElem.addEventListener('click', () => {
 
 closeOverlay.addEventListener('click', () => {
    menu.classList.remove('active');
+});
+
+const descr = document.querySelectorAll('.skills__ratings__descr'),
+   lines = document.querySelectorAll('.skills__ratings__line span');
+
+descr.forEach((item, i) => {
+   lines[i].style.width = item.innerHTML;
 });
