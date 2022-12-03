@@ -1,16 +1,5 @@
 .resume {
    padding-top: 120px;
-   &__subtitle {
-      text-align: center;
-      padding: 0;
-      margin: 0;
-      position: relative;
-      @include before_midle;
-   }
-   &__title {
-      text-align: center;
-      margin-top: 6px;
-   }
    &__wrapper {
       margin-top: 60px;
       justify-content: center;
