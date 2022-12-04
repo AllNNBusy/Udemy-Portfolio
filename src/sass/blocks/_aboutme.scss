@@ -9,13 +9,15 @@
    }
    &__img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
    }
-   &_title {
+   &__title {
       position: relative;
       @include before_circle;
       margin: 6px 0 0 12px;
    }
-   &_subtitle {
+   &__subtitle {
       margin-top: 6px;
    }
    &__descr {

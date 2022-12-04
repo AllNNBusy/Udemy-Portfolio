@@ -1,0 +1,221 @@
+@media (max-width: 1330px) {
+   .sidepanel {
+      display: none;
+   }
+}
+@media (max-width: 1200px) {
+   .container {
+      max-width: 960px;
+   }
+   .about-me {
+      &__grid {
+         grid-template-columns: 400px 530px;
+         column-gap: 30px;
+      }
+      &__items {
+         gap: 30px 40px;
+      }
+   }
+   .resume {
+      &__wrapper {
+         column-gap: 90px;
+      }
+   }
+   .skills {
+      &__items {
+         grid-template-columns: repeat(auto-fill, 270px);
+      }
+      &__ratings {
+         grid-template-columns: repeat(auto-fill, 350px);
+         justify-content: center;
+      }
+   }
+   .portfolio {
+      display: none;
+   }
+   .pricelist {
+      display: none;
+   }
+   .contacts {
+      display: none;
+   }
+}
+
+@media (max-width: 992px) {
+   .container {
+      max-width: 720px;
+   }
+   .title {
+      &_fz36 {
+         font-size: 28px;
+      }
+   }
+   .about-me {
+      &__grid {
+         grid-template-columns: 300px 390px;
+         column-gap: 30px;
+      }
+      &__items {
+         grid-template-columns: 1fr;
+         gap: 15px;
+         margin-top: 20px;
+      }
+      &__photo {
+         width: 58px;
+      }
+   }
+   .resume {
+      &__wrapper {
+         column-gap: 55px;
+         grid-template-columns: repeat(2,330px);
+      }
+   }
+   .skills {
+      &__ratings {
+         grid-template-columns: repeat(auto-fill, 335px);
+      }
+   }
+}
+
+@media (max-width: 768px) {
+   .container {
+      max-width: 540px;
+   }
+   .title {
+      &_fz48 {
+         font-size: 28px;
+         line-height: 1.4;
+      }
+      &_fz36 {
+         font-size: 22px;
+         line-height: 1.4;
+      }
+      &__section-subtitle {
+         margin-top: 26px;
+      }
+   }
+   .divider {
+      margin-top: 15px;
+      &_midle {
+         margin-top: 15px;
+      }
+   }
+   .promo {
+      &__title {
+         width: 300px;
+      }
+   }
+   .menu {
+      &__block {
+         padding-top: 100px;
+      }
+      &__close {
+         top: 20px;
+         right: 20px;
+      }
+   }
+   .about-me {
+      padding-top: 40px;
+      &__grid {
+         grid-template-columns: 1fr;
+         grid-template-rows: 400px auto;
+         row-gap: 46px;
+      }
+      &__subtitle {
+         margin-top: 26px;
+         line-height: 1.4;
+      }
+      &__items {
+         gap: 20px;
+      }
+   }
+   .resume {
+      padding-top: 50px;
+      &__wrapper {
+         margin-top: 40px;
+         grid-template-columns: 425px;
+         row-gap: 40px;
+      }
+   }
+   .skills {
+      padding-top: 50px;
+      &__items {
+         margin-top: 20px;
+         gap: 20px;
+         grid-template-columns: repeat(auto-fill, 260px);
+      }
+      &__ratings {
+         padding-top: 50px;
+         grid-template-columns: repeat(auto-fill, 245px);
+         gap: 40px 40px;
+      }
+   }
+}
+
+@media (max-width: 576px) {
+   .container {
+      max-width: 100%;
+      padding: 0 10px;
+   }
+   .title {
+      &_fz48 {
+         font-size: 26px;
+         line-height: 1.4;
+      }
+   }
+   .hamburger {
+      right: 20px;
+   }
+   .promo {
+      background: url('../img/promo__bg.jpg') no-repeat 58%/cover;
+      &__btns {
+         margin-top: 30px;
+      }
+   }
+   .menu {
+      &__block {
+         width: 250px;
+         padding: 100px 20px 0 20px;
+      }
+      &__link {
+         font-size: 20px;
+         line-height: 1.5;
+         &:before {
+            top: 8px;
+         }
+      }
+   }
+   .about-me {
+      &__grid {
+         grid-template-rows: 340px auto;
+      }
+      &__items {
+         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+      &__photo {
+         width: 93px;
+      }
+   }
+   .resume {
+      &__wrapper {
+         grid-template-columns: 295px;
+      }
+   }
+   .skills {
+      &__items {
+         grid-template-columns: repeat(auto-fill, 270px);
+      }
+      &__ratings {
+         grid-template-columns: repeat(auto-fill, 300px);
+      }
+   }
+   .portfolio {
+      display: none;
+   }
+   .pricelist {
+      display: none;
+   }
+   .contacts {
+      display: none;
+   }
+}
